@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    height: 100%;
+}
+.card{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+.usertag{
+    font-weight: bold;
+}
+.card span{
+    color:#b4b1b1;
+    font-size: small;
+   
+}
+
+.card-text{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.card-text2 i{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.card-text2 span{
+    margin-right: 20px;
+}
